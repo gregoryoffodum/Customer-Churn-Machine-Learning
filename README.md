@@ -8,9 +8,9 @@
 - Receiver Operating Characteristic curve
 
 ## About the dataset
-    "* Dataset: https://www.kaggle.com/blastchar/telco-customer-churn\n"
+    Dataset: https://www.kaggle.com/blastchar/telco-customer-churn\n
     
-Each row represents a customer, each column contains customer’s attributes.
+From kaggle, Telco customer churn dataset is one in which each row represents a customer, each column contains customer’s attributes.
 The data set includes information about:
 
 Customers who left within the last month – the column is called Churn.
@@ -22,7 +22,7 @@ Demographic info about customers – gender, age range, and if they have partner
 
 ## Methodology
 
-The Logistic Regression model was trained, validated and tested with 60%, 20% and 20% of the dataset respectively. Thew following were explored extensively:
+In this [project](https://github.com/gregoryoffodum/Customer-Churn-Machine-Learning/blob/main/Customer%20Churn.ipynb), the Logistic Regression model was trained, validated and tested with 60%, 20% and 20% of the dataset respectively. Thew following were explored extensively:
 
 - Exploratory data preparation and cleaning
 - Feature importance analysis
@@ -43,7 +43,7 @@ The Logistic Regression model was trained, validated and tested with 60%, 20% an
 
 ## Deployment
 
-- The model was saved and deployed using Flask; and a python virtual environment, Pipenv; which therefater can be managed in docker and deployed to a cloud environemnt.
+- The model was [saved](https://github.com/gregoryoffodum/Customer-Churn-Machine-Learning/blob/main/model_C%3D1.0.bin), [tested](https://github.com/gregoryoffodum/Customer-Churn-Machine-Learning/blob/main/predict_test.py) and served using [Flask](https://github.com/gregoryoffodum/Customer-Churn-Machine-Learning/blob/main/predict.py); and a python virtual environment, Pipenv; which therefater can be managed in docker and deployed to a cloud environemnt.
 
 
 
