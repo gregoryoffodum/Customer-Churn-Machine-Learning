@@ -4,7 +4,7 @@
 
 - Predictive analytics
 - Machine learning
-- Logisrtic Regression
+- Logistic Regression
 - Receiver Operating Characteristic curve
 
 ## About the dataset
